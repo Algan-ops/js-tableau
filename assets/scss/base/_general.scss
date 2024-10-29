@@ -1,0 +1,16 @@
+@use "../abstract/variable" as var;
+
+body{
+    background-color: var.$premiere-couleur;
+    font-family: "Quicksand";
+}
+
+h1{
+    margin-top: 50px;
+}
+
+p {
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

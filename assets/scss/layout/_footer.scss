@@ -1,0 +1,5 @@
+@use "../abstract/variable" as var;
+footer{
+    background-color: var.$couleur-header-footer;
+    padding: 50px;
+}

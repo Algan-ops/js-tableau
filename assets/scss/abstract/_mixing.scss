@@ -1,0 +1,11 @@
+@use "../abstract/variable" as var;
+
+@mixin titre2 ($text-color, $bg-color, $rotation) {
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    color: $text-color;
+    background-color: $bg-color;
+    transform: rotate($rotation);
+}

@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "Quicksand";
+  src: url(../font/Quicksand-Regular.ttf);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: "Quicksand";
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.mid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  width: 100%;
+}
+
+header {
+  background-color: #153131;
+  padding: 50px;
+}
+
+nav {
+  position: relative;
+}
+
+.fa-bars {
+  display: none;
+  color: white;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+ul li {
+  margin: 0 1rem;
+}
+
+@media screen and (max-width: 700px) {
+  .fa-bars {
+    display: block;
+    margin-left: 1rem;
+  }
+  ul {
+    display: none;
+  }
+  .menu-dropdown:hover ul {
+    display: block;
+    position: absolute;
+    top: 5rem;
+    left: 1rem;
+    background-color: bisque;
+    color: black;
+  }
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+
+.primaire-h2 {
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  color: blue;
+  background-color: red;
+  transform: rotate(180deg);
+  text-transform: lowercase;
+}
+
+.secondaire-h2 {
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  color: blue;
+  background-color: red;
+  transform: rotate(18deg);
+  text-transform: lowercase;
+}
+
+.Tertiaire-h2 {
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  color: blue;
+  background-color: red;
+  transform: rotate(10deg);
+}
+
+.Quaternaire-h2 {
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  color: blue;
+  background-color: red;
+  transform: rotate(10deg);
+}
+
+footer {
+  background-color: #153131;
+  padding: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */

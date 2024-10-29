@@ -1,0 +1,46 @@
+@use "../abstract/variable" as var;
+
+header{
+    background-color: var.$couleur-header-footer;
+    padding: 50px;
+}
+
+nav{
+    position:relative;
+    
+}
+
+.fa-bars{
+    display: none;
+    color: white;
+}
+
+ul{
+    display:flex;
+    justify-content: center;
+}
+
+ul li {
+    margin:0 1rem;
+}
+
+@media screen and (max-width:700px) {
+    .fa-bars{
+        display: block;
+        margin-left: 1rem;
+    }
+    ul{
+        display: none;
+    }
+
+    .menu-dropdown:hover ul{
+        display: block;
+        position: absolute;
+        top: 5rem;
+        left: 1rem;
+        background-color: bisque;
+        color: black;
+    }
+    // fzsfzfez
+}
+
